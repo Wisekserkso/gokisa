@@ -1,0 +1,213 @@
+<html>
+<head>
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>News | OBS</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://obsproject.com/assets/css/blurple.min.css?20230116-1" rel="stylesheet">   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<body>
+<header id="header" class="cf">
+<div id="wrapper">
+<nav class="navbar navbar-expand-lg navbar-light bg-info p-3">
+      <div class="container-fluid">
+         <a class="logo">
+        <img src="assets/images/logo.png" alt="OBS" />
+        </a>
+        <div class="ht">
+            <div class="ht2 w">OBS</div>
+            <div class="header_subtitle w">Open Broadcaster Software<span class="st">®️</span></div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+     
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link w" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link w" href="download.html">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link w" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link w" href="help.html">Help</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link w" href="https://obsproject.com/forum/">Forum</a>
+            </li>
+        <li class="nav-item">
+          <a href="https://discord.gg/obsproject" target="_blank" aria-label="Discord">
+            <img src="assets/images/dis.png" class="i_dis" />
+          </a>
+         </li>
+       <li class="nav-item">
+          <a rel="me" href="https://twitter.com/OBSProject" target="_blank" aria-label="Twitter">
+           <img src="assets/images/twt.png" class="i_twt" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a rel="me" href="https://mastodon.social/@OBSProject" target="_blank" aria-label="Mastodon">
+            <img src="assets/images/mb.png" class="i_m">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a rel="me" href="https://github.com/obsproject/obs-studio" target="_blank" aria-label="GitHub">
+            <img src="assets/images/git.png" class="i_git">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://obsproject.com/contribute" target="_blank" aria-label="Contribute">
+            <img src="assets/images/c.png" class="i_c">
+          </a>
+        </li>
+    </ul>
+    </div>
+    </div>
+    </nav>
+    </div>
+    </header>
+<div id="w2">
+  <div class="headerpusher">
+    </div>
+<div class="hkl">
+ <h1 class="n2">OBS Latest News</h1>
+</div>
+  <div class="container4">
+    <div class="news-container">
+      <h1>OBS Studio 29 Release Notes</h1>
+    <br>
+      <p>OBS Studio 29.1 is out!<br>
+    <br>
+       This release adds AV1/HEVC streaming to YouTube (feature in beta), multiple audio tracks in Simple 
+       <br>Output Mode, preloading stinger transitions, new audio encoder settings, faster loads/updates, and 
+       <br>various other fixes.</p>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+    <div class="news-container">
+      <h1>OBS Studio and obs-websocket Join Forces</h1>
+      <br>
+      <p>Right around 8 months ago, Palakis and I were approached by the members here at the OBS Project with an idea: Make WebSocket functionality a core feature of OBS Studio. On July 3rd, I was pleased to announce the standalone release of obs-websocket version 5. This version is a complete rewrite of the popular plugin obs-websocket. With over a year of development finally behind us, this version brings a new protocol, many great features, and greatly improved reliability.<br>You can see the notable changes <a href="#">here.</a></p>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+      <div class="news-container2">
+      <h1>What happened with 27.2: The tale of a<br> legendary hotfix</h1><br>
+      <p>That was a crazy week. Let’s talk about what happened with 27.2 and what we had to do this past week.<br><br>
+       With the Windows version of 27.2, we updated all of our dependencies. A dependency is a library made from external source code; something which is not OBS source code, but that OBS depends upon for major functionality and features. Sometimes this can be a feature such as software H.264 encoding, which relies on the x264 encoder library, or a feature such as the browser source, which relies on a much bigger dependency: Chromium (the browser engine that powers Google Chrome). More specifically, the browser source utilizes the Chromium Embedded Framework (CEF) to render a webpage as a source, or to render a webpage as a panel inside of OBS.</p>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+        <div class="news-container3">
+      <h1>Announcing the OBS Project Bounty Program</h1><br>
+      <p>When we first announced that the OBS Project would begin accepting sponsorships over two years<br> ago, our primary goal was to promote the sustainability of OBS development for its contributors.<br> Through your generosity, we’ve grown to be able to support <a href="#">two full-time developers</a>, as well as<br> give back to several contributors from the community in appreciation of their work. And for that, we are <br>extremely grateful!<br><br>
+      However, for some time now, we’ve wanted to make our sponsorship funds go even farther. That’s why, today, we’re announcing the OBS Project Bounty Program. This new program allows us to share our highest priorities with the developer community and provide compensation for the developers who offer their time and expertise to meet those needs.</p>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+    <div class="news-container">
+      <h1>Dillon Pentz Joins the OBS Project as Full Time Developer</h1><br>
+      <p>Today we're pleased to announce the addition of Dillon Pentz as a full time developer for the OBS Project. Dillon has been a regular community contributor since 2017, working on features such as screen reader improvements, transition previews, and the new “missing files” dialog.</p>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+        <div class="news-container4">
+      <h1>OBS Studio 27 Released, Featuring Undo/Redo,<br> Browser Docks on macOS, Linux, and more</h1><br>
+      <p>After an extensive testing period, we’re happy to announce that OBS Studio 27 is now available for <br>everyone! If you already have OBS installed, the next time you launch it you’ll receive an update <br>alert. If you’re downloading OBS for the first time, or would like to use a portable version, you can<br><a href="#" >download it from our website</a>. If you dismiss the update notification, it can be triggered manually from the Help menu on both Windows and macOS.<br><br>
+      Thanks to all who downloaded test builds, reported bugs, and verified that bugs were fixed during the testing period via the #beta-testing channel on<a href="#" > our Discord</a>. Every report means less of a reason to make a hotfix in the coming days, and ultimately results in a better experience for everyone.</p>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+        <div class="news-container5">
+      <h1>YouTube Becomes Premier Sponsor of the OBS<br>Project</h1><br>
+       <img src="assets/images/yt.png" alt="win" width="350" height="100"><br><br>
+      <p>We're excited to announce that YouTube has become a premier sponsor of the OBS Project! Since the earliest days of the program, a large number of our users have used OBS to create video content specifically for YouTube, whether live-streamed or recorded for post-production. We're incredibly humbled to have YouTube, the largest content creation platform on the internet, as one of our sponsors.</p>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+        <div class="news-container6">
+      <h1>Five simple tips for new streamers</h1><br>
+      <p>With lots of folks staying in as a result of COVID-19, there's a good chance that some of y'all who play games will want to get started with streaming. It's a great thing to do while we all maintain distance, since it allows you to be social and talkative, get friends involved, and have a great time online. OBS Studio has made streaming easier than ever to get started with, and all for absolutely no cost. If you want to get that side of things set up,  <a href="#">check out our quick start guide</a>! (or, <a href="#">check out Nerd or Die’s Quick Start Guide videos</a>!)
+      <br>      
+      <br>
+      With that in mind, here's a handful of tips to help you get started streaming!</p>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+        <div class="news-container7">
+      <h1>Facebook Becomes a Premiere Sponsor of the<br>OBS Project</h1><br>
+      <img src="assets/images/fc.png" alt="win" width="350" height="50"><br><br>
+      <p>We are excited to announce that Facebook is the newest Premiere Sponsor of the OBS Project!<br>
+         Facebook has long believed in the power of live video to build community, and because of that, they have shown a passion for supporting the livestreaming industry. Their decision to become a Premiere Sponsor of the OBS Project ensures people everywhere will continue to have access to free, open, and easy-to-use tools to stream the content they love to the world.</p>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+  </div>
+</div>
+<footer class="footer cf">
+    <div class="footer_extra">
+      <div class="footer_left">
+        <div class="footer_row">
+          <div class="logo"><br><img src="assets/images/obs_futer.png"></div>
+          <div class="footer_title"><br>OBS Project</div>
+        </div>
+        <div class="footer_row footer_social">
+          <a rel="me" href="https://twitter.com/OBSProject" target="_blank" aria-label="Twitter">
+           <img src="assets/images/twt2.png" class="i_twt" />
+          </a>
+          <a href="https://facebook.com/OpenBroadcasterSoftware" target="_blank" aria-label="OBS Facebook">
+            <img src="assets/images/fac.png" class="i_twt">
+          </a>
+           <a href="https://discord.gg/obsproject" target="_blank" aria-label="Discord">
+            <img src="assets/images/dis.png" class="i_dis" />
+          </a>
+          <a rel="me" href="https://github.com/obsproject/obs-studio" target="_blank" aria-label="GitHub">
+            <img src="assets/images/git.png" class="i_git">
+          </a>
+        </div>
+      </div>
+      <div class="footer_right">
+        <div class="footer_items">
+            <div class="footer_category"><br>OBS Studio</div>
+            <a href="#" aria-label="Download">Download</a>
+            <a href="#" target="_blank" aria-label="Feature suggestions">Ideas</a>
+            <a href="#" aria-label="Privacy Policy">Privacy Policy</a>
+        </div>
+        <div class="footer_items">
+        <div class="footer_category"><br>Contribute</div>
+          <a href="https://github.com/obsproject/obs-studio" target="_blank" aria-label="OBS GitHub">GitHub</a>
+          <a href="#" aria-label="OBS on Open Collective">Open Collective</a>
+          <a href="#" aria-label="OBS on Patreon">Patreon</a>
+        </div>
+        <div class="footer_items"><div class="footer_category"><br>Support</div>
+          <a href="#" aria-label="Help Portal">Help Portal</a>
+          <a href="#" aria-label="Forums">Forums</a>
+          <a href="#" aria-label="Official Discord">Discord</a>
+          <a href="#" aria-label="Support Wiki">Wiki</a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© 2012 - 2023. OBS and OBS Studio are created and maintained by Lain. Development by 
+          <a href="#">OBS Studio Contributors</a>.
+          <br>
+          Website designed and created by 
+          <a href="#">Warchamp7</a>, powered by
+          <a href="#">Kirby CMS</a>. Downloads powered by 
+          <a href="#">Fastly</a>.
+        </p>    
+    </div>
+    <br>
+    <div class="languages" arial-label="Select Language">
+    <p>
+                          <a href="#">Hrvatski</a> 
+                          <a href="#">Srpski</a> 
+                          <a href="#">Francuski</a> 
+                          <a href="#">Engleski</a>                            
+    </p>
+    </div>
+</footer>
+</body>
+</html>
